@@ -76,7 +76,7 @@ model StudyDiary {
   date DateTime 
   liquidTimeMinutes Int @default(0)
   pomodoroCount Int @default(0)
-  whatsWasStudied String?
+  whatWasStudied String?
   whatWasCompleted String?
   difficulty String?
   nextStep String?
